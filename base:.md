@@ -1,0 +1,182 @@
+base: 
+  active_state_connection_identifier: 3
+  active_state: 9
+  arm_voltage: 24.1979064941
+  arm_current: 1.39961314201
+  temperature_cpu: 51.7451667786
+  temperature_ambient: 34.4369926453
+  imu_acceleration_x: 0.0401077270508
+  imu_acceleration_y: 0.0269739814103
+  imu_acceleration_z: -9.47458648682
+  imu_angular_velocity_x: 4.31368494034
+  imu_angular_velocity_y: -0.25705358386
+  imu_angular_velocity_z: 0.213715836406
+  tool_pose_x: 0.576051533222
+  tool_pose_y: 0.0068921148777
+  tool_pose_z: 0.422020316124
+  tool_pose_theta_x: 91.0868148804
+  tool_pose_theta_y: -1.3297560215
+  tool_pose_theta_z: 90.1999435425
+  tool_twist_linear_x: -8.55554294077e-09
+  tool_twist_linear_y: 4.16437660533e-06
+  tool_twist_linear_z: 2.28297896143e-08
+  tool_twist_angular_x: 0.000229492710787
+  tool_twist_angular_y: -6.00787689109e-06
+  tool_twist_angular_z: 0.000650314847007
+  tool_external_wrench_force_x: 0.970199882984
+  tool_external_wrench_force_y: -8.400639534
+  tool_external_wrench_force_z: -0.313367843628
+  tool_external_wrench_torque_x: 1.93404996395
+  tool_external_wrench_torque_y: 0.114378646016
+  tool_external_wrench_torque_z: 4.37949943542
+  fault_bank_a: 0
+  fault_bank_b: 0
+  warning_bank_a: 0
+  warning_bank_b: 0
+  commanded_tool_pose_x: 0.576042592525
+  commanded_tool_pose_y: 0.00688024749979
+  commanded_tool_pose_z: 0.422163724899
+  commanded_tool_pose_theta_x: 91.069442749
+  commanded_tool_pose_theta_y: -1.33319962025
+  commanded_tool_pose_theta_z: 90.1982421875
+actuators: 
+  - 
+    command_id: 2147517145
+    status_flags: 33557552
+    jitter_comm: 2231208870
+    position: 359.998931885
+    velocity: 0.000303838896798
+    torque: 0.160697519779
+    current_motor: 0.201416015625
+    voltage: 23.1668701172
+    temperature_motor: 34.0428466797
+    temperature_core: 41.3360328674
+    fault_bank_a: 0
+    fault_bank_b: 0
+    warning_bank_a: 0
+    warning_bank_b: 0
+  - 
+    command_id: 2147582681
+    status_flags: 33557552
+    jitter_comm: 2231227985
+    position: 15.0093679428
+    velocity: 0.0
+    torque: 13.2725200653
+    current_motor: -1.72413992882
+    voltage: 23.2803630829
+    temperature_motor: 38.4377403259
+    temperature_core: 48.7301597595
+    fault_bank_a: 0
+    fault_bank_b: 0
+    warning_bank_a: 0
+    warning_bank_b: 0
+  - 
+    command_id: 2147648217
+    status_flags: 33557520
+    jitter_comm: 2231162690
+    position: 180.00100708
+    velocity: -0.000151689891936
+    torque: 0.0715266689658
+    current_motor: -0.185302734375
+    voltage: 23.2094306946
+    temperature_motor: 33.6239013672
+    temperature_core: 44.4313735962
+    fault_bank_a: 0
+    fault_bank_b: 0
+    warning_bank_a: 0
+    warning_bank_b: 0
+  - 
+    command_id: 2147713753
+    status_flags: 33557552
+    jitter_comm: 2231175211
+    position: 229.997039795
+    velocity: 0.0
+    torque: -7.58144044876
+    current_motor: 0.523743629456
+    voltage: 23.181055069
+    temperature_motor: 34.8783187866
+    temperature_core: 42.2088356018
+    fault_bank_a: 0
+    fault_bank_b: 0
+    warning_bank_a: 0
+    warning_bank_b: 0
+  - 
+    command_id: 2147779289
+    status_flags: 33557552
+    jitter_comm: 2231155802
+    position: 0.00216291518882
+    velocity: 0.000606301473454
+    torque: 0.595527946949
+    current_motor: -0.233677312732
+    voltage: 23.0675621033
+    temperature_motor: 37.5982437134
+    temperature_core: 42.0158081055
+    fault_bank_a: 0
+    fault_bank_b: 0
+    warning_bank_a: 0
+    warning_bank_b: 0
+  - 
+    command_id: 2147844825
+    status_flags: 33557552
+    jitter_comm: 2231116388
+    position: 54.994884491
+    velocity: 0.0
+    torque: -2.93022441864
+    current_motor: 0.56396484375
+    voltage: 23.1384963989
+    temperature_motor: 38.9453125
+    temperature_core: 45.3725509644
+    fault_bank_a: 0
+    fault_bank_b: 0
+    warning_bank_a: 0
+    warning_bank_b: 0
+  - 
+    command_id: 2147910361
+    status_flags: 33557552
+    jitter_comm: 2231164848
+    position: 90.0019607544
+    velocity: -0.000606301473454
+    torque: -1.95937931538
+    current_motor: -0.209511384368
+    voltage: 23.2236175537
+    temperature_motor: 39.5656738281
+    temperature_core: 46.6929130554
+    fault_bank_a: 0
+    fault_bank_b: 0
+    warning_bank_a: 0
+    warning_bank_b: 0
+interconnect: 
+  feedback_id: 
+    identifier: 2147979773
+  status_flags: 268438544
+  jitter_comm: 2231203431
+  imu_acceleration_x: 0.200263008475
+  imu_acceleration_y: 9.74653148651
+  imu_acceleration_z: -0.0783118009567
+  imu_angular_velocity_x: 7.76999998093
+  imu_angular_velocity_y: -4.05124998093
+  imu_angular_velocity_z: -0.743749976158
+  voltage: 23.1644535065
+  temperature_core: 44.9800796509
+  fault_bank_a: 0
+  fault_bank_b: 0
+  warning_bank_a: 0
+  warning_bank_b: 0
+  oneof_tool_feedback: 
+    gripper_feedback: 
+      - 
+        feedback_id: 
+          identifier: 0
+        status_flags: 13
+        fault_bank_a: 0
+        fault_bank_b: 0
+        warning_bank_a: 0
+        warning_bank_b: 0
+        motor: 
+          - 
+            motor_id: 1
+            position: 50.0
+            velocity: 0.0
+            current_motor: 0.0
+            voltage: 23.1644535065
+            temperature_motor: 0.0
